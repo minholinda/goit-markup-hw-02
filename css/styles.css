@@ -15,6 +15,8 @@
 
 body {
     font-family: 'roboto', sans-serif;
+    color:#2E2F42;
+    background-color: #FFFFFF;
 }
 
 .list {
@@ -49,7 +51,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,33;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-logo-color);
@@ -180,7 +182,7 @@ body {
 
 .team-title {
     font-size: 36px;
-    line-height: 1.11x;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
 }
@@ -251,11 +253,14 @@ background-color: var(--main-subtitle-color);
 .filter-list {
 }
 
+.filter-item {
+}
+
 .filter-btn {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--main-btn-color);
@@ -270,6 +275,13 @@ background-color: var(--main-subtitle-color);
 }
 
 .portfolio-item {
+}
+
+.portfolio-link {
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
 }
 
 .portfolio-subtitle {
